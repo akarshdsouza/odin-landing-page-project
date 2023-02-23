@@ -1,0 +1,178 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.logo-and-links {
+  padding: 20px 0 20px;
+  display: flex;
+  gap: 16px;
+  flex: 1;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 1;
+  margin-left: 0;
+  margin right: auto;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.link {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.section-one {
+    background-color: #1f2937;
+    padding: 100px 0 100px;
+}
+
+.section-one-content {
+    display: flex;
+    justify-content: space-between;
+}
+.section-one-text {
+    max-width: 600px;
+    margin: 0;
+}
+
+.section-one-text > h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+.section-one-text > p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-one-text > button {
+    background-color: #3882f6;
+    border: 0;
+    padding: 5px 20px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.section-two {
+    padding: 20px 0 20px;
+}
+
+.section-two > h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.section-two-icons-text > div > p {
+    width: 150px;
+    text-align: center;
+}
+
+.section-two-icons-text {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 60px 0 60px;
+}
+
+.icon-image {
+    width: 150px;
+    height: 150px;
+    border: solid 2px #3882f6;
+    border-radius: 15px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 150px 0 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    width: 850px;
+    margin: auto;
+}
+
+.quote-author {
+    width: 850px;
+    text-align: right;
+    margin: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.call-to-action-section {
+    background-color: #3882f6;
+    padding: 50px 75px 50px;
+    max-width: 60%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.cta-text > h2 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.cta-text > p {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.cta-button > button {
+    width: 130px;
+    height: 40px;
+    margin-right: 50px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.footer-section {
+    background-color: #1f2937;
+    padding: 15px;
+}
+
+.footer-section > p {
+    color: #f9faf8;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 200;
+}
