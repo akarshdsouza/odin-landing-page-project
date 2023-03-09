@@ -21,17 +21,24 @@ html {
 .logo-and-links {
   padding: 20px 0 20px;
   display: flex;
+  justify-content: space-between;
   gap: 16px;
   flex: 1;
   align-items: center;
 }
 
+
 .logo {
-  flex-grow: 1;
   margin-left: 0;
   margin right: auto;
   color: #f9faf8;
   font-size: 24px;
+}
+
+.links {
+    display: flex;
+    align-items:center;
+    gap: 20px;
 }
 
 .link {
@@ -50,7 +57,7 @@ html {
     justify-content: space-between;
 }
 .section-one-text {
-    max-width: 600px;
+    width:50%;
     margin: 0;
 }
 
@@ -73,6 +80,15 @@ html {
     border-radius: 5px;
     font-weight: bold;
     color: white;
+}
+
+.section-one-image {
+    width: 50%;
+}
+
+.section-one-image > img {
+    width: 100%;
+    object-fit:cover;
 }
 
 .section-two {
